@@ -85,7 +85,7 @@ const styles = StyleSheet.create({
    },
    optionsContainer: {
       position: 'absolute',
-      bottom: 80,
+      bottom: 45,
    },
    optionsRow: {
       alignItems: 'center',
