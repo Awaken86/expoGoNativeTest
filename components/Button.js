@@ -7,7 +7,7 @@ export default function Button({ label, theme, onPress }) {
          <View
             style={[styles.buttonContainer, {
                borderWidth: 4,
-               borderColor: "#ffd33d",
+               borderColor: "#22bfaa",
                borderRadius: 18
             }]}
          >
@@ -29,7 +29,7 @@ export default function Button({ label, theme, onPress }) {
 
    return (
       <View style={styles.buttonContainer}>
-         <Pressable style={styles.button} onPress={() => alert('You pressed a button.')}>
+         <Pressable style={styles.button} onPress={onPress}>
             <Text style={styles.buttonLabel}>{label}</Text>
          </Pressable>
       </View>
